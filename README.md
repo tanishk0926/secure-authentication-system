@@ -4,6 +4,16 @@ A secure backend authentication system built using Node.js, Express.js, MongoDB,
 
 ---
 
+## Live Demo
+
+### Backend API
+
+https://secure-authentication-system-jeig.onrender.com/
+
+### Example API Endpoint
+
+https://secure-authentication-system-jeig.onrender.com/api/auth/register
+
 ## Features
 
 * User Registration
@@ -104,14 +114,22 @@ cd secure-authentication-system
 npm install
 ```
 
-### Create `.env` File
-
 ```env
 PORT=3000
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret
+
+GOOGLE_CLIENT_ID=your_google_client_id
+
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+GOOGLE_REFRESH_TOKEN=your_google_refresh_token
+
 GOOGLE_USER=your_email@gmail.com
-GOOGLE_APP_PASSWORD=your_google_app_password
+
+NODE_ENV=development
 ```
 
 ### Run Development Server
